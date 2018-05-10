@@ -33,7 +33,4 @@ def find_a (locate_a)
 end
 
 def sum_array (num)
-  num.inject do |sum, i|
-    sum + i
-  end
-end
+  num.inject {|sum, n| sum + n }

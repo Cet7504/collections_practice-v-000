@@ -32,4 +32,3 @@ def find_a (locate_a)
   end
   locate_a
 end
-      

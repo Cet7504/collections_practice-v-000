@@ -30,5 +30,5 @@ def find_a (locate_a)
   locate_a.find.all? do |letter|
     if letter.start_with?("a")
   end
-  letter
+  locate_a
 end

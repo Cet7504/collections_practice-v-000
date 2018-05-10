@@ -25,3 +25,7 @@ def kesha_maker (char_change)
   end
   char_change
 end
+
+def find_a (locate_a)
+  locate_a.find_a.all?
+end

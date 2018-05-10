@@ -27,9 +27,9 @@ def kesha_maker (char_change)
 end
 
 def find_a (locate_a)
-  locate_a.find.all? do |letter|
-    if letter.start_with?("a")
-      return locate_a
-    end
+  locate_a.each do |letter|
+    letter.collect.start_with?("a")
   end
+  locate_a
 end
+      

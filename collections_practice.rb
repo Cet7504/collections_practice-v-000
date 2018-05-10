@@ -31,3 +31,10 @@ def find_a (locate_a)
     locate.start_with?("a")
   end
 end
+
+def sum_array (num)
+  num.inject do |sum, i|
+    sum + i
+  end
+end
+    

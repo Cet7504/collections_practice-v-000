@@ -21,7 +21,7 @@ end
 
 def kesha_maker (char_change)
   char_change.each do |char|
-    char[2] = $
+    char[2] = "$"
   end
   char_change
 end

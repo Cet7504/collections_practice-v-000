@@ -35,3 +35,8 @@ end
 def sum_array (num)
   num.inject {|sum, n| sum + n }
 end
+
+def add_s (array)
+  array.each_char.collect { |element, index| element[index] << "s"}
+end
+  

@@ -28,7 +28,7 @@ end
 
 def find_a (locate_a)
   locate_a.each do |letter|
-    letter.collect.start_with?("a")
+    letter.start_with?("a")
   end
   locate_a
 end

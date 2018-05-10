@@ -37,4 +37,3 @@ def sum_array (num)
     sum + i
   end
 end
-    
